@@ -1,5 +1,3 @@
-import { Document } from 'mongoose';
-
-export interface IMessageUpdate extends Document {
+export interface IMessageUpdate {
     content: string;
 }
